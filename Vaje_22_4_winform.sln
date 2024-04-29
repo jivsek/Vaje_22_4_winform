@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StevecKlikov", "StevecKliko
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeviInDesni", "LeviInDesni\LeviInDesni.csproj", "{ACD2FB9E-50D0-4267-AD3D-A15B8B4E8AB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semafor", "Semafor\Semafor.csproj", "{5C82F064-2FC0-4B43-98FC-4DABE2014BF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{ACD2FB9E-50D0-4267-AD3D-A15B8B4E8AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACD2FB9E-50D0-4267-AD3D-A15B8B4E8AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACD2FB9E-50D0-4267-AD3D-A15B8B4E8AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C82F064-2FC0-4B43-98FC-4DABE2014BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C82F064-2FC0-4B43-98FC-4DABE2014BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C82F064-2FC0-4B43-98FC-4DABE2014BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C82F064-2FC0-4B43-98FC-4DABE2014BF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
