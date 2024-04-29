@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StevecKlikov", "StevecKlikov\StevecKlikov.csproj", "{B98C29C1-AFCE-44C3-B5AF-5D9427CED241}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeviInDesni", "LeviInDesni\LeviInDesni.csproj", "{ACD2FB9E-50D0-4267-AD3D-A15B8B4E8AB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B98C29C1-AFCE-44C3-B5AF-5D9427CED241}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B98C29C1-AFCE-44C3-B5AF-5D9427CED241}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B98C29C1-AFCE-44C3-B5AF-5D9427CED241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD2FB9E-50D0-4267-AD3D-A15B8B4E8AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD2FB9E-50D0-4267-AD3D-A15B8B4E8AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD2FB9E-50D0-4267-AD3D-A15B8B4E8AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD2FB9E-50D0-4267-AD3D-A15B8B4E8AB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
