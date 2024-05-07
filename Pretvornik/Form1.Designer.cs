@@ -36,6 +36,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btn_pocisti = new System.Windows.Forms.Button();
+            this.btn_kviz = new System.Windows.Forms.Button();
+            this.btn_resitev = new System.Windows.Forms.Button();
+            this.lbl_res_ft = new System.Windows.Forms.Label();
+            this.lbl_res_inch = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_pretvori
@@ -94,7 +98,6 @@
             this.label4.Size = new System.Drawing.Size(42, 20);
             this.label4.TabIndex = 7;
             this.label4.Text = "inch";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -116,11 +119,53 @@
             this.btn_pocisti.UseVisualStyleBackColor = true;
             this.btn_pocisti.Click += new System.EventHandler(this.btn_pocisti_Click);
             // 
+            // btn_kviz
+            // 
+            this.btn_kviz.Location = new System.Drawing.Point(325, 73);
+            this.btn_kviz.Name = "btn_kviz";
+            this.btn_kviz.Size = new System.Drawing.Size(75, 23);
+            this.btn_kviz.TabIndex = 10;
+            this.btn_kviz.Text = "Kviz";
+            this.btn_kviz.UseVisualStyleBackColor = true;
+            this.btn_kviz.Click += new System.EventHandler(this.btn_kviz_Click);
+            // 
+            // btn_resitev
+            // 
+            this.btn_resitev.Location = new System.Drawing.Point(325, 102);
+            this.btn_resitev.Name = "btn_resitev";
+            this.btn_resitev.Size = new System.Drawing.Size(75, 23);
+            this.btn_resitev.TabIndex = 11;
+            this.btn_resitev.Text = "Rešitev";
+            this.btn_resitev.UseVisualStyleBackColor = true;
+            this.btn_resitev.Click += new System.EventHandler(this.btn_resitev_Click);
+            // 
+            // lbl_res_ft
+            // 
+            this.lbl_res_ft.AutoSize = true;
+            this.lbl_res_ft.ForeColor = System.Drawing.Color.Green;
+            this.lbl_res_ft.Location = new System.Drawing.Point(502, 174);
+            this.lbl_res_ft.Name = "lbl_res_ft";
+            this.lbl_res_ft.Size = new System.Drawing.Size(0, 13);
+            this.lbl_res_ft.TabIndex = 12;
+            // 
+            // lbl_res_inch
+            // 
+            this.lbl_res_inch.AutoSize = true;
+            this.lbl_res_inch.ForeColor = System.Drawing.Color.Green;
+            this.lbl_res_inch.Location = new System.Drawing.Point(636, 174);
+            this.lbl_res_inch.Name = "lbl_res_inch";
+            this.lbl_res_inch.Size = new System.Drawing.Size(0, 13);
+            this.lbl_res_inch.TabIndex = 13;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 226);
+            this.Controls.Add(this.lbl_res_inch);
+            this.Controls.Add(this.lbl_res_ft);
+            this.Controls.Add(this.btn_resitev);
+            this.Controls.Add(this.btn_kviz);
             this.Controls.Add(this.btn_pocisti);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -146,6 +191,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btn_pocisti;
+        private System.Windows.Forms.Button btn_kviz;
+        private System.Windows.Forms.Button btn_resitev;
+        private System.Windows.Forms.Label lbl_res_ft;
+        private System.Windows.Forms.Label lbl_res_inch;
     }
 }
 

@@ -20,10 +20,6 @@ namespace Pretvornik
 
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void btn_pretvori_Click(object sender, EventArgs e)
         {
@@ -129,6 +125,35 @@ namespace Pretvornik
             tb_cm.Text = "";
             tb_ft.Text = "";
             tb_inch.Text = "";
+
+            tb_ft.BackColor = SystemColors.Window;
+            tb_inch.BackColor = SystemColors.Window;
+            lbl_res_ft.Text = "";
+            lbl_res_inch.Text = "";
         }
+
+        private void btn_kviz_Click(object sender, EventArgs e)
+        {
+            var rand = new Random();
+            int cm_kviz = rand.Next(1000);
+
+            tb_cm.Text = cm_kviz.ToString();
+
+            tb_ft.BackColor = Color.LightYellow;
+            tb_inch.BackColor = Color.LightYellow;
+
+        }
+
+        private void btn_resitev_Click(object sender, EventArgs e)
+        {
+            int cm = Int32.Parse(tb_cm.Text);
+            int ft = (int)Math.Floor(cm / 30.48);
+            double inch = 12 * ((cm / 30.48) - ft);
+
+            lbl_res_ft.Text = ft.ToString();
+            lbl_res_inch.Text = inch.ToString();
+
+        }
+
     }
 }
